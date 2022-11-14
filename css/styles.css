@@ -1,0 +1,103 @@
+/* This is a comment */
+#pen {
+    height: 250px;
+    width: 100%;
+background-image: url("../images/pexels-janson-k-753695.png");  
+background-repeat: no-repeat;  
+background-size: 70%;
+background-position: 100% 0%;
+outline: 1px  solid blueviolet;
+
+}
+
+#logo {
+    width: 20%;
+    float: left;
+}
+
+#logo img {
+   width: 100%;
+   
+}
+
+nav {
+    background-color: #AC26FF;
+    height: 60px;
+    width: 70%;
+    }
+
+nav ul {
+    margin: 0 auto;
+    width: 60%;
+}
+
+nav ul li {
+    list-style-type: none;
+    float: right;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #AC26FF;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+nav ul li a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+
+h1  {
+    color:  black;
+    text-align: center;
+    font-family: cantiga,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#top-line {
+    color: black;
+}
+
+#bottom-line {
+    /* color: yellow; */
+    border: 5px solid yellow;
+}
+
+h2 {
+    color: black;
+    font-family: basco-std,serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+p {
+    font-family: basco-std,serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+/* The header will include the logo and navigation */
+/* Place logo in upper left hand corner of page */
+/* Place menu bar on upper right side of page. Have page navigate vertical */ 
+/* Place pen image in upper right hand corner of page at end of page header Kalos Artwork & Words, LLC */
+/* Place social media images in lower left corner of page in asides section of document */
+ p {
+    color: black;
+ }
+ 
+ img {
+    width: 30%;  
+ }
+
+ #social img {
+    height: 1%;
+    width: 1%;
+    background-image: url("../images/Instagram\ Logo.jpg");
+    background-image: url("../images/Facebook\ Logo.jpg") ;
+    background-image: url("../images/Email\ Logo.jpg");
+    background-repeat: no-repeat;
+    float: left;
+ }
