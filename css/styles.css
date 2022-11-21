@@ -65,6 +65,17 @@ h1  {
     border: 5px solid yellow;
 }
 
+section {
+    width: 100%;
+    outline: 1px solid red;
+}
+
+section img {
+    display: block;
+    margin: 0 auto;
+    outline: 1px solid green;
+}
+
 h2 {
     color: black;
     font-family: basco-std,serif;
@@ -88,9 +99,33 @@ p {
     color: black;
  }
  
+ #image-block {
+    height: 300px;
+    outline: 1px solid goldenrod;
+    background-image: url(../images/dove-g3d2529f52_1920.jpg);
+    background-size: cover;
+ }
+
+ .content-section {
+      height: 450px;
+      background-color: bisque;
+      width: 100%;
+ }
  img {
     width: 30%;  
  }
+
+ #image-block {
+    height: 300px;
+    background-image: url(../images/ike_0225.jpg);
+    background-size: right;
+ }
+ p {
+    font-family: basco-std,serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
 
  #social img {
     height: 1%;
