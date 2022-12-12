@@ -5,8 +5,7 @@
 		<meta charset="UTF-8">
 		<link href="css/styles.css" rel="stylesheet" type="text/css"/>
 		<link rel="stylesheet" href="https://use.typekit.net/jqg3nqa.css">
-		<link rel="stylesheet" href="https://use.typekit.net/jqg3nqa.css">
-		<title>Kalos Artwork & Words, LLC</title>
+			<title>Kalos Artwork & Words, LLC</title>
 	  <!-- The is the Copy Kit Code to use in the head 97b14196ef from fontawesome-->
 	  <script src="https://kit.fontawesome.com/97b14196ef.js" crossorigin="anonymous"></script>
 	</head>
@@ -17,84 +16,180 @@
 	  <!-- Place pen image in upper right hand corner of page at end of page header Kalos Artwork & Words, LLC-->
 	  <header id="pen">
 		<div id="logo">
-	 		<img src="images/kalos-updated-logo.jpg" alt="Kalos Artwork & Words logo" />
+	 		<img src="images/kalos-logo@4x.png" alt="Kalos Artwork & Words logo" />
 		</div>
 		<nav> 
 			<ul>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Products</a></li>
-				<li><a href="#">Events</a></li>
-				<li><a href="#">Reviews</a></li>
-				<li><a href="#">Contact</a></li>	
+				<li><a href="#about">About</a></li>
+				<li><a href="#products">Products</a></li>
+				<li><a href="#events">Events</a></li>
+				<li><a href="#reviews">Reviews</a></li>
+				<li><a href="#contact">Contact</a></li>	
 			</ul>
 		</nav>
 	  </header>
 
 	  <!-- Page Header: contains company name -->
-	  <sectionpen>
+	  <section>
 		<!-- The pen will be a backgroud image for this section.-->
 		<!-- This reference needs to go into the CSS file. img src="images/pexels-janson-k-753695.png" alt="Image of Hand writing with Pen"/>-->
 		<h1>Kalos Artwork & Words, LLC</h1>
 		<hr id="top-line"/>
 		<hr id="bottom-line"/>
-	  </sectionpen>
+	  </section>
 	  
 	  <!-- Image and description -->
           <!-- Center or place somewhat under navigation menu bar-->
-	  <sectionstacy>
+	  <section id="stacy">
 		<img src="images/ike_0277.jpg" alt="Image of Owner Stacy Wells" />
-		<p>Stacy Y. Wells</p>
-		<p>Artist/Author</p>
-		<p>Kalos Artwork & Words, LLC</p>
-	  </sectionstacy>
-	  <div id="Image block">
-		  <!-- Add height and background image to the div-->
-	  </div>
+		<p class="centerit"> Stacy Y. Wells</p>
+		<p class="centerit">Artist/Author</p>
+		<p class="centerit">Kalos Artwork & Words, LLC</p>
+	  </section>
+
+	  <section id="about">
+		  <h2 class="centerit">About</h2>
+		  <img src="images/ike_0225.jpg" alt="Image of Owner Stacy Wells" />
+		<p>Stacy is the visionary of Kalos Artwork & Words, LLC. "Kalos" is an ancient Greek word which means what is beautiful and noble. In her work, Stacy's goal is
+		   to reflect works and designs that live up to the connotation of what is beautiful and noble, with a taste of excellence. The company has two 
+	       branches- artwork and print. With the artwork branch, Stacy creates commissioned art pieces such as paintings, drawings, book cover designs as well 
+		   as logo designs. Print products include her self-published novels and original inspirational pieces. "Destiny's Edge: A Journey to Reclaim a Stolen 
+		   Legacy" is her first self-published novel.  Stacy's academic backgroud includes an Associates Degree in General Studies, a Bachelor of Science Degree 
+		   in Sociology, Master's Degree coursework in Social Work. The entreprenuer is currently working on an Associate in Graphic Design Degree at Brightpoint Community 
+		   College. Stacy's theme scripture she uses for her business comes from Proverbs 16:18 (KJV), "A man's gift maketh room for him, and bringeth him before great men."
+		</p>
+	   </section>
+
+	  <section id="products">
+			<h2 class="centerit">Products</h2>
+			<img src="images/destiny-edge-book.jpg" alt="Image of Book Destiny's Edge" />
+			<p class="centerit"> "Destiny's Edge" (New Novel)</p>
+			<p class="centerit">Price: $20</p>
+			<p class="centerit">(Also Shipping & Handling, 5.3% VA State Tax Applies)</p>
+	  </section>
+
+	  <section id="events">
+	  		<h2 class="centerit">Events</h2>
+			<p class="centerit">(TO BE ANNOUNCED)</p>
+	  </section>
+
+	  <section id="reviews">
+	  		<h2 class="centerit">Reviews</h2>
+			<form action="#" method="post" name="myreviewform" >
+              <!--Adding a text field-->
+			  <div>
+				<label for="firstname">First Name</label>
+				<input type="text" size="20" id="firstname" placeholder="Enter your first name here" />
+			  </div>
+              <!--Adding a text field-->
+			  <div>
+				<label for="lastname">Last Name</label>
+				<input type="text" size="20" id="lastname" placeholder="Enter your last name here" />
+			  </div>
+			  <!--Adding a text field-->
+			  <div>
+				<label for="review">Review</label>
+				<textarea name="review" cols="30" rows="3"></textarea>
+			  </div>
+			  <!-- Radio Buttons-->
+			  <!-- Add Submit Button and Reset Button-->
+			  <input type="submit" value="Submit My Review" />
+			  <input type="reset" value="Reset" />
+			</form>
+
+	  </section>
+
+	  <section id="contact">
+			<h2 class="centerit">Contact</h2>
+	  </section>
+	  		
+	   	
+	        <div id="Image block">
+		    <!-- Add height and background image to the div-->
+	        </div>
 	  
 	  <section class="content-section">
 		  <!-- Add height, color, etc. if desired.-->
-		  <h2>Contact Kalos Artwork & Words</h2>
+		  <h2 class="centerit">Contact Kalos Artwork & Words</h2>
 		  <form action="#" method="post" name="myfirstform" >
 			<!-- Adding a text field-->
+			<div> 
 			<label for="firstname">First Name</label>
 			<input type="text" size="20" id="firstname" placeholder="Enter your first name here" />
- 
+			</div>
+
 			<!--Adding a text field-->
+			<div>
 			<label for="lastname">Last Name</label>
-			<input type="text" size="20" id="lastname" placeholder="Enter your last name name here" />
+			<input type="text" size="20" id="lastname" placeholder="Enter your last name here" />
+			</div>
 
 			<!-- Adding a text field-->
+			<div>
 			<label for="address">Address</label>
 			<input type="text" size="100" id="address" placeholder="Enter your address here" />
+			</div>
 
 			<!-- Adding a text field-->
+			<div>
 			<label for="phonenumber">Phone Number</label>
 			<input type="text" size="20" id="phonenumber" placeholder="Enter your phone number" />
+			</div>
 
 			<!-- Adding a text field-->
+			<div>
 			<label for="email">Email</label>
 			<input type="text" size="20" id="email" placeholder="Enter your email" />
+			</div>
  
+			<!-- Adding a checkbox field-->
+			<div>
+			<input type="checkbox" id="bookcoverdesign" name="bookcoverdesign" value="Book Cover Design">
+			<label for="bookcoverdesign"> Interested in book cover design</label><br>
+			</div>
+
+			<!-- Adding a checkbox field-->
+			<div>
+			<input type="checkbox" id="painting" name="painting" value="Commission Original Painting">
+			<label for="painting"> Interested in a commissioned painting</label><br>
+		    </div>
+
+			<!-- Adding a checkbox field-->
+			<div>
+			<input type="checkbox" id="drawing" name="drawing" value="Drawing">
+			<label for="drawing"> Interested in a commissioned drawing</label><br>
+			</div>
+
+			<!-- Adding a checkbox field-->
+			<div>
+			<input type="checkbox" id="logodesign" name="logodesign" value="Logo Design">
+			<label for="logodesign"> Interested in logo design</label><br>
+			</div>
+
+			<!-- Adding a checkbox field-->
+			<div>
+			<input type="checkbox" id="other" name="other" value="Other">
+			<label for="other"> Other</label><br>
+			<textarea name="comments" cols="30" rows="3"></textarea>
+			</div>
+            
 			<!-- Radio Buttons -->
  
 			<!-- Add a submit button -->
 			<input type="submit" value="Submit My Form" />
+			<input type="reset"  value="Reset" />
 		 </form>
+		 
 	  </section>
 
-	  <sectionaboutowner>
-		<img src="images/ike_0225.jpg" alt="Image of Owner Stacy Wells" />
-		<p>Stacy Y. Wells</p>
-		<p>Artist/Author</p>
-		<p>Kalos Artwork & Words, LLC</p>
-	  </sectionaboutowner>
-
-	  <!--Center and place under image-->
+	 	  <!--Center and place under image-->
           <!-- <footer>Social Media Icons</footer>-->
-		  <!-- Within the footer put in each social media icon as <p><i class="fa-brands fa-facebook-f"></i> <i class="fa-brands fa-instagram"></i> <i class="fa-regular fa-envelope"></i></p> -->
+		  <!-- Within the footer put in each social media icon as <i class="fa-brands fa-facebook-f"></i> <i class="fa-brands fa-instagram"></i> <i class="fa-regular fa-envelope"></i> -->
 		  <footer>
-			<p><i class="fa-brands fa-facebook-f"></i> <i class="fa-brands fa-instagram"></i> <i class="fa-regular fa-envelope"></i></p>
+			<a href="https://www.facebook.com/kalosartworkwords"> <i class="fa-brands fa-facebook-f"></i> </a>
+			<a href="https://www.instagram.com/i_am_stacyywells"> <i class="fa-brands fa-instagram"></i> </a>
+			<a href="mailto:kalosartwork@gmail.com"> <i class="fa-regular fa-envelope"></i></a>
 		  </footer>
-		
+		  	<p>Kalos Artwork & Words Contact #(434)294-9260</p>
 	</body>
 </html>
